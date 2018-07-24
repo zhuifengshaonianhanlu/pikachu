@@ -18,8 +18,8 @@ Pikachu是一个带有漏洞的Web应用系统，在这里包含了常见的web�
 * XXE(XML External Entity attack)<br>
 * 不安全的URL重定向<br>
 * SSRF(Server-Side Request Forgery)<br>
-* More...(找找看?..有彩蛋!)<br>
 * 管理工具<br>
+* More...(找找看?..有彩蛋!)<br>
 
 管理工具里面提供了一个简易的xss管理后台,供你测试钓鱼和捞cookie~<br>
 后续会持续更新一些新的漏洞进来,也欢迎你提交漏洞案例给我,最新版本请关注pikachu<br>
