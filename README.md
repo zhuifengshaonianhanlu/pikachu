@@ -41,6 +41,8 @@ Pikachu使用世界上最好的语言PHP进行开发-_-<br>
 ## 切记
 "少就是多,慢就是快"
 
-倘若你习惯听人授课，不防看看《web安全从入门到“放弃”》这么课程：
-http://i.xue.taobao.com/detail.htm?spm=a2174.7365761.39b9.15.JwwT2U&courseId=99071
+倘若阁下习惯听人授课，不防看看《web安全从入门到“放弃”》这门课程：<br>
+http://i.xue.taobao.com/detail.htm?spm=a2174.7365761.39b9.15.JwwT2U&courseId=99071<br>
+
+
 
