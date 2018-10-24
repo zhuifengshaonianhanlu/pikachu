@@ -52,6 +52,6 @@ if(isset($_POST['submit'])){
         </form>
     </div>
 </div>
-<p>admin/13456</p>
+<p>admin/123456</p>
 </body>
 </html>
