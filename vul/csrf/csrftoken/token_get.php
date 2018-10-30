@@ -59,7 +59,7 @@ if(isset($_GET['logout']) && $_GET['logout'] == 1){
             $username=$_SESSION['csrf']['username'];
             $query="select * from member where username='$username'";
             $result=execute($link, $query);
-            $data=mysqli_fetch_array($result, MYSQL_ASSOC);
+            $data=mysqli_fetch_array($result);
             $name=$data['username'];
             $sex=$data['sex'];
             $phonenum=$data['phonenum'];
