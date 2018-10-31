@@ -22,6 +22,7 @@ $link=connect();
 //如果没登录，或者level不等于1，都就干掉
 if(!check_op2_login($link) || $_SESSION['op2']['level']!=1){
     header("location:op2_login.php");
+    exit();
 }
 
 //删除
