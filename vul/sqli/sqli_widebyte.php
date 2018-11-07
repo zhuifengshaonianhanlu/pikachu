@@ -23,9 +23,9 @@ $link=connect();
 
 $html='';
 
-if(isset($_GET['submit']) && $_GET['name']!=null){
+if(isset($_POST['submit']) && $_POST['name']!=null){
 
-    $name = escape($link,$_GET['name']);
+    $name = escape($link,$_POST['name']);
     $query="select id,email from member where username='$name'";//这里的变量是字符型，需要考虑闭合
     //设置mysql客户端来源编码是gbk,这个设置导致出现宽字节注入问题
     $set = "set character_set_client=gbk";
