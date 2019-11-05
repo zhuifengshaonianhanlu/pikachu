@@ -41,8 +41,15 @@ Pikachu使用世界上最好的语言PHP进行开发-_-<br>
 
 如果阁下对Pikachu使用上有什么疑问，可以在QQ群：532078894 咨询，虽然咨询了，也不一定有人回答-_-。
 
+## Docker
+
+```bash
+docker build -t "pikachu" .
+docker run -d -p8080:80 pikachu
+```
 
 ## 切记
+
 "少就是多,慢就是快"
 
 
