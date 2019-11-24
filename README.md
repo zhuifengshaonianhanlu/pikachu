@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/security-靶机-poc)
 ![](https://img.shields.io/badge/version-1.0-success)
 ![](https://img.shields.io/github/stars/zhuifengshaonianhanlu/pikachu.svg)
 ![](https://img.shields.io/github/forks/zhuifengshaonianhanlu/pikachu.svg)
