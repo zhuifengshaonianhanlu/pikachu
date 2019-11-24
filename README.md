@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/web安全-靶场)
+![](https://img.shields.io/badge/web安全-靶场-PTEST)
 ![](https://img.shields.io/badge/version-1.0-success)
 ![](https://img.shields.io/github/stars/zhuifengshaonianhanlu/pikachu.svg)
 ![](https://img.shields.io/github/forks/zhuifengshaonianhanlu/pikachu.svg)
