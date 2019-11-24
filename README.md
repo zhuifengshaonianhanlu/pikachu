@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/version-1.0-success)
 ![](https://img.shields.io/github/stars/zhuifengshaonianhanlu/pikachu.svg)
-![](https://img.shields.io/github/fork/zhuifengshaonianhanlu/pikachu.svg)
+![](https://img.shields.io/github/forks/zhuifengshaonianhanlu/pikachu.svg)
 ![](https://img.shields.io/github/license/zhuifengshaonianhanlu/pikachu.svg)
 
 “如果你想搞懂一个漏洞，比较好的方法是：你可以自己先制造出这个漏洞（用代码编写），然后再利用它，最后再修复它”。
