@@ -15,11 +15,12 @@ if ($SELF_PAGE = "xss_01.php"){
 $PIKA_ROOT_DIR =  "../../";
 include_once $PIKA_ROOT_DIR.'header.php';
 
-
 $html = '';
 if(isset($_GET['submit']) && $_GET['message'] != null){
     //这里会使用正则对<script进行替换为空,也就是过滤掉
     $message=preg_replace('/<(.*)s(.*)c(.*)r(.*)i(.*)p(.*)t/', '', $_GET['message']);
+//    $message=str_ireplace('<script>',$_GET['message']);
+
     if($message == 'yes'){
         $html.="<p>那就去人民广场一个人坐一会儿吧!</p>";
     }else{

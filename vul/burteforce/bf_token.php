@@ -21,28 +21,40 @@ include_once $PIKA_ROOT_DIR.'header.php';
 $link=connect();
 $html="";
 
-if(isset($_POST['submit']) && $_POST['username'] && $_POST['password'] && $_POST['token']==$_SESSION['token']){
+if(isset($_POST['submit']) && $_POST['username'] && $_POST['password'] && $_POST['token']){
 
     $username = $_POST['username'];
     $password = $_POST['password'];
+    $token = $_POST['token'];
+
     $sql = "select * from users where username=? and password=md5(?)";
     $line_pre = $link->prepare($sql);
 
 
     $line_pre->bind_param('ss',$username,$password);
 
-    if($line_pre->execute()){
-        $line_pre->store_result();
-        if($line_pre->num_rows>0){
-            $html.= '<p> login success</p>';
+    if($token == $_SESSION['token']){
 
-        } else{
-            $html.= '<p> username or password is not exists～</p>';
+        if($line_pre->execute()){
+            $line_pre->store_result();
+            if($line_pre->num_rows>0){
+                $html.= '<p> login success</p>';
+
+            } else{
+                $html.= '<p> username or password is not exists～</p>';
+            }
+
+        }else{
+            $html.= '<p>执行错误:'.$line_pre->errno.'错误信息:'.$line_pre->error.'</p>';
         }
 
-    } else{
-        $html.= '<p>执行错误:'.$line_pre->errno.'错误信息:'.$line_pre->error.'</p>';
+
+    }else{
+        $html.= '<p> csrf token error</p>';
     }
+
+
+
 
 }
 
