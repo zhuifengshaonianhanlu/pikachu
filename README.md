@@ -1,3 +1,9 @@
+![](https://img.shields.io/badge/web安全-靶场-PTEST)
+![](https://img.shields.io/badge/version-1.0-success)
+![](https://img.shields.io/github/stars/zhuifengshaonianhanlu/pikachu.svg)
+![](https://img.shields.io/github/forks/zhuifengshaonianhanlu/pikachu.svg)
+![](https://img.shields.io/github/license/zhuifengshaonianhanlu/pikachu.svg)
+
 “如果你想搞懂一个漏洞，比较好的方法是：你可以自己先制造出这个漏洞（用代码编写），然后再利用它，最后再修复它”。
 
 <br>
@@ -39,10 +45,17 @@ Pikachu使用世界上最好的语言PHP进行开发-_-<br>
 <br>
 <br>
 
-如果阁下对Pikachu使用上有什么疑问，可以在QQ群：532078894 咨询，虽然咨询了，也不一定有人回答-_-。
+如果阁下对Pikachu使用上有什么疑问，可以在QQ群：532078894（已满），973351978（未满） 咨询，虽然咨询了，也不一定有人回答-_-。
 
+## Docker
+
+```bash
+docker build -t "pikachu" .
+docker run -d -p8080:80 pikachu
+```
 
 ## 切记
+
 "少就是多,慢就是快"
 
 
