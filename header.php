@@ -502,7 +502,7 @@ if (!isset($ACTIVE)){
                 <li class="<?php echo $ACTIVE[53];?>" >
                     <a href="<?php echo $PIKA_ROOT_DIR;?>vul/rce/rce_eval.php">
                         <i class="menu-icon fa fa-caret-right"></i>
-                        exec "evel"
+                        exec "eval"
                     </a>
                     <b class="arrow"></b>
                 </li>
