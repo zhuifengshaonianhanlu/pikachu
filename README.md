@@ -12,7 +12,7 @@
 Pikachu是一个带有漏洞的Web应用系统，在这里包含了常见的web安全漏洞。 如果你是一个Web渗透测试学习人员且正发愁没有合适的靶场进行练习，那么Pikachu可能正合你意。<br>
 
 ## Pikachu上的漏洞类型列表如下：<br>
-* Burt Force(暴力破解漏洞)<br>
+* Burt Force approach(暴力破解漏洞)<br>
 * XSS(跨站脚本漏洞)<br>
 * CSRF(跨站请求伪造)<br>
 * SQL-Inject(SQL注入漏洞)<br>
