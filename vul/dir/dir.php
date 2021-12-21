@@ -43,8 +43,8 @@ include_once $PIKA_ROOT_DIR.'header.php';
                     </dd>
                     </dd>
                     <dd class="vul_detail">
-                        需要区分一下的是,如果你通过不带参数的url（比如：http://xxxx/doc）列出了doc文件夹里面所有的文件，这种情况，我们成为敏感信息泄露。
-                        而并不归为目录遍历漏洞。（关于敏感信息泄露你你可以在"i can see you ABC"中了解更多）
+                        需要区分一下的是,如果你通过不带参数的url（比如：http://xxxx/doc）列出了doc文件夹里面所有的文件，这种情况，我们称为敏感信息泄露。
+                        而并不归为目录遍历漏洞。（关于敏感信息泄露你可以在"i can see your ABC"中了解更多）
                     </dd>
                     <dd class="vul_detail">
                         你可以通过“../../”对应的测试栏目，来进一步的了解该漏洞。

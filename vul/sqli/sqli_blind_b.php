@@ -53,7 +53,7 @@ if(isset($_GET['submit']) && $_GET['name']!=null){
                     <i class="ace-icon fa fa-home home-icon"></i>
                     <a href="../sqli.php">sqli</a>
                 </li>
-                <li class="active">基于boolian的盲注</li>
+                <li class="active">基于boolean的盲注</li>
             </ul><!-- /.breadcrumb -->
             <a href="#" style="float:right" data-container="body" data-toggle="popover" data-placement="bottom" title="tips(再点一下关闭)"
                data-content="admin/123456">

@@ -73,7 +73,7 @@ include_once $PIKA_ROOT_DIR.'header.php';
 
         __sleep() 在对象在被序列化之前运行
 
-        __wakeup将在序列化之后立即被调用
+        __wakeup()将在序列化之后立即被调用
 
         漏洞举例:
 

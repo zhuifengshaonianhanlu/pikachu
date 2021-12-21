@@ -36,7 +36,7 @@ include_once $PIKA_ROOT_DIR.'header.php';
                 <dl>
                     <dt class="vul_title">CSRF(跨站请求伪造)概述</dt>
                     <dd class="vul_detail">
-                        Cross-site request forgery 简称为“CSRF”，在CSRF的攻击场景中攻击者会伪造一个请求（这个请求一般是一个链接），然后欺骗目标用户进行点击，用户一旦点击了这个请求，整个攻击就完成了。所以CSRF攻击也成为"one click"攻击。
+                        Cross-site request forgery 简称为“CSRF”，在CSRF的攻击场景中攻击者会伪造一个请求（这个请求一般是一个链接），然后欺骗目标用户进行点击，用户一旦点击了这个请求，整个攻击就完成了。所以CSRF攻击也称为"one click"攻击。
                         很多人搞不清楚CSRF的概念，甚至有时候会将其和XSS混淆,更有甚者会将其和越权问题混为一谈,这都是对原理没搞清楚导致的。<br/>
                         这里列举一个场景解释一下，希望能够帮助你理解。<br />
                         <b>场景需求：</b><br />小黑想要修改大白在购物网站tianxiewww.xx.com上填写的会员地址。<br />

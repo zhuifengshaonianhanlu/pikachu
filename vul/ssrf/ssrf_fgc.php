@@ -49,7 +49,7 @@ if(isset($_GET['file']) && $_GET['file'] !=null){
         </div>
         <div class="page-content">
 
-            <a href="ssrf_fgc.php?file=<?php echo 'http://127.0.0.1/'.$RD.'/vul/ssrf/ssrf_info/info2.php';?>">反正都读了,那就在来一首吧</a>
+            <a href="ssrf_fgc.php?file=<?php echo 'http://127.0.0.1/'.$RD.'/vul/ssrf/ssrf_info/info2.php';?>">反正都读了,那就再来一首吧</a>
 
         </div><!-- /.page-content -->
     </div>

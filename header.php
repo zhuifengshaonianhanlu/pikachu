@@ -447,7 +447,7 @@ if (!isset($ACTIVE)){
                     <li class="<?php echo $ACTIVE[44];?>" >
                         <a href="<?php echo $PIKA_ROOT_DIR;?>vul/sqli/sqli_blind_b.php">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            盲注(base on boolian)
+                            盲注(base on boolean)
                         </a>
                         <b class="arrow"></b>
                     </li>
