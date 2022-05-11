@@ -8,7 +8,7 @@ header('Content-type:text/html;charset=utf-8');
 //定义数据库连接参数
 define('DBHOST', 'localhost');//将localhost修改为数据库服务器的地址
 define('DBUSER', 'root');//将root修改为连接mysql的用户名
-define('DBPW', 'root');//将root修改为连接mysql的密码
+define('DBPW', '');//将root修改为连接mysql的密码
 define('DBNAME', 'pkxss');//自定义，建议不修改
 define('DBPORT', '3306');//将3306修改为mysql的连接端口，默认tcp3306
 
