@@ -60,6 +60,8 @@ docker run -d -p8080:80 pikachu
 "少就是多,慢就是快"
 
 
+## WIKI
+[点击进入](https://github.com/zhuifengshaonianhanlu/pikachu/wiki/01:%E6%89%AF%E5%9C%A8%E5%89%8D%E9%9D%A2)
 
 
 
