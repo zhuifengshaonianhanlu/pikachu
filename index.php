@@ -9,7 +9,12 @@ include_once 'inc/config.inc.php';
 include "header.php";
 
 $html="";
-if(!@mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME)){
+try
+{
+    mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME);
+}
+catch(Exception)
+{
     $html.=
         "<p >
         <a href='install.php' style='color:red;'>
