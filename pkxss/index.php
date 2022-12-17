@@ -9,7 +9,7 @@ try
 {
     $link = mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME);
 }
-catch(Exception)
+catch(Exception $e)
 {
     $html.=
         "<p >
