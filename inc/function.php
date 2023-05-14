@@ -32,7 +32,7 @@ function vcodex(){
     	$str = "";
     	for($i=0;$i<6;$i++){
         	$pos = rand(0,35);
-        	$str .= $string{$pos};
+        	$str .= $string[$pos];
     	}
     //session_start();
     //$_SESSION['img_number'] = $str;

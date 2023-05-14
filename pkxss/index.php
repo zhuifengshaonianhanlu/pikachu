@@ -5,14 +5,21 @@ include_once "inc/config.inc.php";
 include_once "inc/mysql.inc.php";
 
 $html='';
-if(!@mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME)){
+try
+{
+    $link = mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME);
+}
+catch(Exception $e)
+{
     $html.=
         "<p >
         <a href='pkxss_install.php' style='color:red;'>
         提示:欢迎使用xss后台，点击进行初始化安装!
         </a>
     </p>";
-}else{
+}
+if (@$link)
+{
     header("location:pkxss_login.php");
 }
 
