@@ -55,6 +55,13 @@ docker build -t "pikachu" .
 docker run -d -p8080:80 pikachu
 ```
 
+## 演示地址
+https://localhost:8080
+
+## 安装数据库
+访问 https://localhost:8080/install.php
+
+
 ## 切记
 
 "少就是多,慢就是快"
