@@ -49,9 +49,15 @@ Pikachu使用世界上最好的语言PHP进行开发-_-<br>
 
 ## Docker
 
+使用已有构建：
+```bash
+docker run -d -p 8765:80 8023/pikachu-expect:latest
+```
+
+本地构建：
 ```bash
 docker build -t "pikachu" .
-docker run -d -p8080:80 pikachu
+docker run -d -p 8080:80 pikachu
 ```
 
 ## 切记
