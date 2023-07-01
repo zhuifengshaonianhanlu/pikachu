@@ -36,10 +36,6 @@ if(isset($_GET['logout']) && $_GET['logout'] == 1){
 ?>
 
 
-
-?>
-
-
 <div class="main-content">
     <div class="main-content-inner">
         <div class="breadcrumbs ace-save-state" id="breadcrumbs">
@@ -71,9 +67,9 @@ if(isset($_GET['logout']) && $_GET['logout'] == 1){
    <h1 class="per_title">hello,{$name},欢迎来到个人会员中心 | <a style="color:bule;" href="csrf_post.php?logout=1">退出登录</a></h1>
    <p class="per_name">姓名:{$name}</p>
    <p class="per_sex">性别:{$sex}</p>
-   <p class="per_phone">手机:{$phonenum}</p>    
-   <p class="per_add">住址:{$add}</p> 
-   <p class="per_email">邮箱:{$email}</p> 
+   <p class="per_phone">手机:{$phonenum}</p>
+   <p class="per_add">住址:{$add}</p>
+   <p class="per_email">邮箱:{$email}</p>
    <a class="edit" href="csrf_post_edit.php">修改个人信息</a>
 </div>
 A;

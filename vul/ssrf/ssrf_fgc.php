@@ -12,7 +12,8 @@ if ($SELF_PAGE = "ssrf_fgc.php"){
 }
 
 $FILEDIR = $_SERVER['PHP_SELF'];
-$RD = explode('/',$FILEDIR)[1];
+$RD = explode('/',$FILEDIR)[1] . '/';
+$RD = $RD == 'vul/' ? '' : $RD;
 
 
 $PIKA_ROOT_DIR =  "../../";
@@ -49,7 +50,7 @@ if(isset($_GET['file']) && $_GET['file'] !=null){
         </div>
         <div class="page-content">
 
-            <a href="ssrf_fgc.php?file=<?php echo 'http://127.0.0.1/'.$RD.'/vul/ssrf/ssrf_info/info2.php';?>">反正都读了,那就在来一首吧</a>
+            <a href="ssrf_fgc.php?file=<?php echo 'http://127.0.0.1/'.$RD.'vul/ssrf/ssrf_info/info2.php';?>">反正都读了,那就在来一首吧</a>
 
         </div><!-- /.page-content -->
     </div>
