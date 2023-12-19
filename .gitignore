@@ -1,0 +1,11 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/pikachu/FileContentIndex/0c995632-857c-46dc-ae17-af21c5b4b939.vsidx
+/.vs/pikachu/FileContentIndex/read.lock
+/.vs/pikachu/v17/.wsuo
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/pikachu/FileContentIndex/9bf06d1b-1e51-4f6f-9d7a-40e3f2c5e22b.vsidx
