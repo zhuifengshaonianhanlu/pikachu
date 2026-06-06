@@ -8,7 +8,8 @@
 
 *****FBI WARNING:**<br>
 我实在是不忍心看到大家在这么老的PHP平台上进行学习以及给我发邮件问PHP的报错问题了<br>
-因此，我给大家搞了一个基于java+spring boot主流技术框架的全新的靶场<br>
+因此，我给大家搞了一个基于java+spring主流技术框架的全新的靶场<br>
+所有的源码和场景全新设计,绝对让你瞬间激情燃烧<br>
 让pikachu沉睡吧,你需要[MadRabbit](https://github.com/zhuifengshaonianhanlu/MadRabbit)<br>
 *****<br>
 
